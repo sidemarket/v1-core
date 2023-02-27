@@ -1,0 +1,8 @@
+/scripts
+/.deps
+/artifacts
+/contracts/artifacts
+/contracts/interfaces/artifacts
+/tests/artifacts
+/.idea
+/node_modules
