@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 
 import "./../interfaces/IERC20Minimal.sol";
 
-contract SidemStake {
+contract StakeManager {
 
     IERC20Minimal internal token;
 
