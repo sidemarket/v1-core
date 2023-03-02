@@ -66,7 +66,7 @@ contract StakeManager {
     }
 
     function _calculateReward(uint256 balance, uint256 time) internal pure returns(uint256) {
-        return balance + (time * (balance * 15 / 100) / 365 days);
+        return balance + (time * (balance * 6 / 100) / 365 days);
     }
 
 }
